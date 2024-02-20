@@ -183,7 +183,8 @@ a {
 }
 
 .header_center {
-    margin-bottom: 388px;
+    display: flex;
+    margin-bottom: 129px;
 }
 
 .menu {
@@ -366,4 +367,8 @@ a {
 }
 .circle{
     
+}
+.free{
+    background-image: url(./img/background\ \(1\).jpg);
+    background-repeat: no-repeat;
 }
