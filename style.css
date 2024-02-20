@@ -319,3 +319,10 @@ a {
     color:#000;
     border: 1px solid  #000;
 }
+.skill{
+    width: 148px;
+height: 148px;
+/* warning */
+background: rgb(248, 40, 190);
+position: relative;
+}
