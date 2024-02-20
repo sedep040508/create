@@ -120,6 +120,7 @@ section {
 }
 
 .btn {
+    transition: 0.3s;
     border-radius: 4px;
     background: rgb(119, 114, 241);
     align-items: center;
@@ -128,8 +129,15 @@ section {
     font-size: 16px;
     font-weight: 700;
     width: 199px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
-.btn:hover {}
+.btn:hover {
+    background: inherit;
+    border: 1px solid #fff;
+}
 
 .link {
     transition: 0.3s;
@@ -192,11 +200,15 @@ margin-bottom: 60px;
     color: rgb(119, 114, 241);
 }
 .black{
+    transition: 0.3s;
     box-sizing: border-box;
-/* white */
-background: inherit;
-border: 1px solid rgb(255, 255, 255);
-border-radius: 4px;
+    /*white*/background: inherit;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.black:hover{
+    background: rgb(119, 114, 241);
+    border: 1px solid #000;
 }
 .play{
     width: 84px;
@@ -208,6 +220,15 @@ border-radius: 50%;
 
 }
 .header_img{
-    width: 590px;
+    max-width: 590px;
 height: 526px;
+}
+.header_button{
+    max-width: 1231px;
+height: 40px;
+flex-direction: row;
+}
+.icon_box{
+    width: 256px;
+    height: 40px;
 }
