@@ -176,11 +176,13 @@ a {
     /* display/1 */
 font-size: 72px;
 font-weight: 900;
-flex-wrap: wrap;
+flex-direction: row;
 gap: 25px;
 display: flex;
 line-height: 90%;
 letter-spacing: 1px;
+align-content: flex-start;
+flex-wrap: wrap;
 text-align: left;
 color: #fff;
 max-width: 810px;
@@ -195,7 +197,6 @@ margin-bottom: 60px;
 background: inherit;
 border: 1px solid rgb(255, 255, 255);
 border-radius: 4px;
-
 }
 .play{
     width: 84px;
@@ -205,4 +206,8 @@ background: rgb(119, 114, 241);
 opacity: 0.12;
 border-radius: 50%;
 
+}
+.header_img{
+    width: 590px;
+height: 526px;
 }
