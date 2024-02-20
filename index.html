@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="core.js" defer></script>
 </head>
@@ -12,9 +17,30 @@
 <body>
     <header>
         <div class="container">
-            <div class="header_top">
-                <div class="logo"></div>
+            <div class="header_top flex">
+                <div class="header_left flex">
+                    <div class="logo"><img src="img/logo.svg" alt=""></div>
+                    <div class="nav">
+                        <ul class="menu flex">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn"><span class="span">Talk to a human</span></button>
             </div>
+            <div class="header_center">
+                <div class="header_tit">Best <p class="purple">SEO & Marketing</p> Solutions for You</div>
+                <div class="header_btn flex">
+                    <button class="btn black">Get a free analysis</button>
+                    <!-- <button class="play"></button> -->
+                </div>
+                <div class="header_img"><img src="" alt=""></div>
+            </div>
+
         </div>
     </header>
 </body>
