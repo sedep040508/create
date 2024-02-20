@@ -134,6 +134,7 @@ section {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+
 .btn:hover {
     background: inherit;
     border: 1px solid #fff;
@@ -152,17 +153,21 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.header_top{
+
+.header_top {
     padding-top: 20px;
     margin-bottom: 200px;
 }
+
 header {
     background: url(img/background.jpg);
     height: 1080px;
 }
-.header_left{
+
+.header_left {
     gap: 60px;
 }
+
 .logo {
     width: 130px;
     height: 22px;
@@ -177,58 +182,103 @@ a {
     text-align: left;
 }
 
+.header_center {
+    margin-bottom: 388px;
+}
+
 .menu {
     gap: 40px;
 }
-.header_tit{
+
+.header_tit {
     /* display/1 */
-font-size: 72px;
-font-weight: 900;
-flex-direction: row;
-gap: 25px;
-display: flex;
-line-height: 90%;
-letter-spacing: 1px;
-align-content: flex-start;
-flex-wrap: wrap;
-text-align: left;
-color: #fff;
-max-width: 810px;
-margin-bottom: 60px;
+    font-size: 72px;
+    font-weight: 900;
+    flex-direction: row;
+    gap: 25px;
+    display: flex;
+    line-height: 90%;
+    letter-spacing: 1px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #fff;
+    max-width: 810px;
+    margin-bottom: 60px;
 }
-.purple{
+
+.purple {
     color: rgb(119, 114, 241);
 }
-.black{
+
+.black {
     transition: 0.3s;
     box-sizing: border-box;
-    /*white*/background: inherit;
+    /*white*/
+    background: inherit;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
 }
-.black:hover{
+
+.black:hover {
     background: rgb(119, 114, 241);
     border: 1px solid #000;
 }
-.play{
+
+.play {
     width: 84px;
-height: 84px;
-/* primary */
-background: rgb(119, 114, 241);
-opacity: 0.12;
-border-radius: 50%;
+    height: 84px;
+    /* primary */
+    background: rgb(119, 114, 241);
+    opacity: 0.12;
+    border-radius: 50%;
 
 }
-.header_img{
+
+.header_img {
     max-width: 590px;
-height: 526px;
+    height: 526px;
 }
-.header_button{
+
+.header_button {
     max-width: 1231px;
-height: 40px;
-flex-direction: row;
-}
-.icon_box{
-    width: 256px;
     height: 40px;
+    flex-direction: row;
+}
+
+.icon_box {
+    width: 37.81px;
+    height: 37.81px;
+    background: url(img/icon1.svg) center no-repeat;
+}
+
+.features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    display: flex;
+}
+
+.icon_tit {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* lead/bold */
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.driver {
+    width: 40px;
+    height: 0;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 94px;
+    transform: rotate(90.00deg);
+    opacity: 0.4;
+}
+
+.header_buttom {
+    display: flex;
 }
