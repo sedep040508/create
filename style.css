@@ -328,6 +328,7 @@ a {
     width: 148px;
     height: 148px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .outer {
@@ -382,4 +383,19 @@ a {
     justify-content: center;
     display: flex;
     gap: 48px;
+}
+nav ul li ul{
+    transition:1s;
+    width: 180px;
+    background: #fff;
+    display: none;
+}
+nav ul li ul li{
+    width: 100%;
+}
+nav ul li ul li ul{
+    width: 180px;
+}
+nav ul li:hover > ul{
+    display: initial;
 }
