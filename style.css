@@ -325,17 +325,17 @@ a {
 }
 
 .skill {
-    width: 148px;
+    max-width: 148px;
     height: 148px;
     position: relative;
-    margin-bottom: 20px;
+    
 }
 
 .outer {
-    width: 148px;
+    max-width: 148px;
     height: 148px;
     border-radius: 50%;
-
+    margin-bottom: 20px;
     padding: 15px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
@@ -354,8 +354,56 @@ a {
         0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
         0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
+.click {
+	width: 3px;
+	height: 3px;
+	background: #F10909;
+	border-radius: 50%;
+	position: absolute;
+	animation: click 1s forwards;
+	-webkit-animation: click 1s forwards;
+}
 
-#number {
+@keyframes click {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(30);
+		opacity: 0;
+
+	}
+}
+
+img.rot {
+	-webkit-animation: 13s linear 0s normal none infinite running rot;
+	height: 165.69px;
+	margin-left: 285px;
+	margin-top: -90px;
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rot {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+er {
     /* h2 */
     color: rgb(30, 33, 44);
     font-family: Lato;
@@ -398,4 +446,13 @@ nav ul li ul li ul{
 }
 nav ul li:hover > ul{
     display: initial;
+}
+.prog_tit{
+    /* small/regular */
+color: rgb(66, 69, 81);
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
 }
