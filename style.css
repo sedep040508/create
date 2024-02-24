@@ -969,3 +969,16 @@ figure.effect-text-three p
  .background{
 
  }
+ .tab-button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
