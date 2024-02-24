@@ -770,7 +770,16 @@ text-align: center;
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
   mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
 }
-
+.hidden {
+  display: none;
+}
+video{
+  width: 360px;
+  height: 300px;
+  margin-top: -100px;
+  border-radius: 39px;
+  overflow: hidden;
+}
 .pie:after {
   inset: calc(50% - var(--b)/2);
   background: var(--c);

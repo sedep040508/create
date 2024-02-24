@@ -171,3 +171,16 @@ for (i = 0; i < acc.length; i++) {
 
 })();
 
+document.addEventListener("DOMContentLoaded", function() {
+  const videoButton = document.querySelector('.pulse');
+  const videoContainer = document.getElementById('videoContainer');
+
+  videoButton.addEventListener('click', function() {
+    videoContainer.classList.remove('hidden');
+    videoButton.classList.add('hidden');
+    
+  });
+});
+
+
+ 
