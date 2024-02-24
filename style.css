@@ -696,7 +696,10 @@ nav ul li:hover>ul {
 .background {
   background: url(img/bg.jpg) no-repeat;
 }
-
+.bg{
+  width: 530px;
+height: 801px;
+}
 .pulse {
   width: 52px;
   height: 52px;
@@ -967,7 +970,6 @@ figure.effect-text-three p
   transform: translate3d(0,0,0);
  }
  .background{
-
  }
  .tab-button {
   background-color: #f2f2f2;
