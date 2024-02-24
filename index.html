@@ -55,10 +55,10 @@
                         <button class="pulse"><img src="img/small/play-btn/small.png" alt=""></button>
                         <div id="videoContainer" class="hidden">
                             <video id="video" controls>
-                              <source src="img/cover.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
+                                <source src="img/cover.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
                             </video>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="header_img"><img src="img/header_img.png" alt=""></div>
@@ -145,13 +145,28 @@
             <div class="services">
                 <div class="services_tit">Our services</div>
                 <div class="services_top flex">
-                    <button class="btn border">Social Media</button>
-                    <button class="btn noborder">SEO</button>
-                    <button class="btn noborder">Research</button>
-                    <button class="btn noborder">Content & PR</button>
-                    <button class="btn noborder">Payed Traffic</button>
+                    <button class="btn border" onclick="openTab(event, 'tab1')">Social Media</button>
+                    <button class="btn noborder" onclick="openTab(event, 'tab2')">SEO</button>
+                    <button class="btn noborder" onclick="openTab(event, 'tab3')">Research</button>
+                    <button class="btn noborder" onclick="openTab(event, 'tab4')">Content & PR</button>
+                    <button class="btn noborder" onclick="openTab(event, 'tab5')">Payed Traffic</button>
+
+                    
+                    <div id="tab2" class="tab-content" style="display:none">
+                        Content for tab 2
+                    </div>
+                    <div id="tab3" class="tab-content" style="display:none">
+                        Content for tab 3
+                    </div>
+                    <div id="tab4" class="tab-content" style="display:none">
+                        Content for tab 4
+                    </div>
+                    <div id="tab5" class="tab-content" style="display:none">
+                        Content for tab 5
+                    </div>
+
                 </div>
-                <div class="ser_bottom flex">
+                <div id="tab1" class="tab-content flex" >
                     <div class="services_left">
                         <div class="center_tit">Complete Worflow For Any SEO Professional</div>
                         <ul class="center_list">
@@ -320,22 +335,8 @@
     </section>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 
-    <div class="tab-container">
-        <button class="btn border" onclick="openTab(event, 'tab1')">Tab 1</button>
-        <button class="btn noborder" onclick="openTab(event, 'tab2')">Tab 2</button>
-        <button class="btn border" onclick="openTab(event, 'tab3')">Tab 3</button>
-      
-        <div id="tab1" class="tab-content">
-          Content for tab 1
-        </div>
-        <div id="tab2" class="tab-content" style="display:none">
-          Content for tab 2
-        </div>
-        <div id="tab3" class="tab-content" style="display:none">
-          Content for tab 3
-        </div>
-      </div>
-      
+
+
 
 
 
