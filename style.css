@@ -742,6 +742,26 @@ nav ul li:hover>ul {
   display: flex;
   gap: 48px;
 }
+.znak{
+  align-items: center;
+  display: flex;
+}
+.first-per{
+  margin-bottom: 20px;
+}
+.years{
+  /* small/regular */
+color: rgb(66, 69, 81);
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
+.sec_per{
+  margin-bottom: 20px;
+}
 .pie:before {
   inset: 0;
   background:
@@ -758,6 +778,8 @@ nav ul li:hover>ul {
 }
 
 .animate {
+  display: flex;
+  align-items: center;
   animation: p 1s .5s both;
 }
 
@@ -796,7 +818,15 @@ nav ul li:hover>ul {
   letter-spacing: 0%;
   text-align: left;
 }
-
+.counter{
+  /* h2 */
+color: rgb(30, 33, 44);
+font-size: 32px;
+font-weight: 900;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+}
 .lit{
   display: flex;
 }
