@@ -139,27 +139,25 @@ for (i = 0; i < acc.length; i++) {
 // >>> > 006 db1d2b8ae7b26e5814e0b6f7ac08e8ab80066
 
 
-(function () {
+(function(){
 
   let counter = document.querySelectorAll('.counter');
   let limit = 0; // Переменная, чтобы останавливать функцию, когда всё запустится.
-  window.addEventListener('scroll', function () {
-    if (limit == counter.length) {
-      return;
-    }
-
-    for (let i = 0; i < counter.length; i++) {
+  window.addEventListener('scroll', function(){  
+    if( limit == counter.length ){ return; }
+    
+    for(let i = 0; i < counter.length; i++){
       let pos = counter[i].getBoundingClientRect().top; //Позиция блока, считая сверху окна
       let win = window.innerHeight - 40; // На 40 пикселей меньше, чем высота окна
-      if (pos < win && counter[i].dataset.stop === "0") {
+      if( pos < win && counter[i].dataset.stop === "0" ){
         counter[i].dataset.stop = 1; // Останавливаем перезапуск счета в этом блоке
         let x = 0;
         limit++; // Счетчик будет запущен, увеличиваем переменную на 1
-        let int = setInterval(function () {
+        let int = setInterval(function(){
           // Раз в 60 миллисекунд будет прибавляться 50-я часть нужного числа
-          x = x + Math.ceil(counter[i].dataset.to / 20);
+          x = x + Math.ceil( counter[i].dataset.to / 20 ); 
           counter[i].innerText = x;
-          if (x > counter[i].dataset.to) {
+          if( x > counter[i].dataset.to ){
             //Как только досчитали - стираем интервал.
             counter[i].innerText = counter[i].dataset.to;
             clearInterval(int);
@@ -168,30 +166,8 @@ for (i = 0; i < acc.length; i++) {
       }
     }
   });
-
-<<<<<<< HEAD
-        for (let i = 0; i < counter.length; i++) {
-            let pos = counter[i].getBoundingClientRect().top; //Позиция блока, считая сверху окна
-            let win = window.innerHeight - 40; // На 40 пикселей меньше, чем высота окна
-            if (pos < win && counter[i].dataset.stop === "0") {
-                counter[i].dataset.stop = 1; // Останавливаем перезапуск счета в этом блоке
-                let x = 0;
-                limit++; // Счетчик будет запущен, увеличиваем переменную на 1
-                let int = setInterval(function () {
-                    // Раз в 60 миллисекунд будет прибавляться 50-я часть нужного числа
-                    x = x + Math.ceil(counter[i].dataset.to / 50);
-                    counter[i].innerText = x;
-                    if (x > counter[i].dataset.to) {
-                        //Как только досчитали - стираем интервал.
-                        counter[i].innerText = counter[i].dataset.to;
-                        clearInterval(int);
-                    }
-                }, 30);
-            }
-        }
-    })
-})();
-
+  
+  })();
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
@@ -213,8 +189,7 @@ for (i = 0; i < acc.length; i++) {
             }, false)
         })
 })()
-=======
-})();
+
 
 document.addEventListener("DOMContentLoaded", function() {
   const videoButton = document.querySelector('.pulse');
@@ -236,4 +211,3 @@ function openTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "block";
 }
->>>>>>> 6004db88283d6361878d3b001dbadd04b8f39c25
