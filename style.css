@@ -711,7 +711,9 @@ nav ul li:hover>ul {
   line-height: 160%;
   letter-spacing: 0%;
 }
-
+.center_list{
+  margin-bottom: 48px;
+}
 .list_icon {
   width: 16px;
   height: 16px;
@@ -1013,5 +1015,16 @@ figure.effect-text-three:hover p {
 	transform: translate3d(0,0,0);
 }
 .learn{
-  
+  width: 140px;
+height: 44px;
+color: rgb(119, 114, 241);
+box-sizing: border-box;
+/* primary */
+border-radius: 4px;
+background: none;
+border: 1px solid rgb(119, 114, 241);
+}
+.learn:hover{
+  background: rgb(119, 114, 241);
+color: white;
 }
