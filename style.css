@@ -730,7 +730,6 @@ nav ul li:hover>ul {
 
 .background {
   background: url(img/bg.jpg) no-repeat;
-  margin-top: -580px;
 }
 
 .bg {
@@ -746,9 +745,12 @@ nav ul li:hover>ul {
   background: rgb(119, 114, 241);
   border-radius: 50%;
 }
+.tabc1{
+  gap: 137px;
+}
 .serv{
-  max-width: 705px;
-height: 560px;
+  max-width: 700px;
+  height: 560px;
 }
 @property --p {
   syntax: '<number>';
