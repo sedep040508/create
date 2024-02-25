@@ -1151,10 +1151,96 @@ figure.effect-text-three:hover p {
   text-align: left;
   margin-bottom: 28px;
 }
-.footer_icons{
+
+.footer_icons {
   gap: 22px;
   display: flex;
 }
-.footer_left{
-  padding: 80px 80px 0 0 ;
+
+.footer_top {
+  padding-top: 80px;
+}
+
+.list_tit {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.footer_lists {
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.foot_cards {
+  display: flex;
+  gap: 15px;
+}
+
+li img {
+  width: 14.33px;
+  height: 14.77px;
+  margin-top: 5px;
+}
+
+.footer_list li {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.gmail {
+  max-width: 286px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+
+  background: rgba(255, 255, 255, 0.12);
+  /* white */
+  color: #fff;
+  opacity: 0.6;
+  align-items: center;
+  display: flex;
+  padding: 9px 0 9px 12px;
+  margin-bottom: 12px;
+
+}
+
+.foot_cards {
+  margin-bottom: 40px;
+}
+
+.g_txt {
+  /* extraextrasmall/regular */
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  max-width: 286px;
+}
+
+.rights {
+  max-width: 1920px;
+  height: 50px;
+  /* white */
+  background: rgb(255, 255, 255);
+  opacity: 0.05;
+}
+
+.right_tit {
+  /* extrasmall/regular */
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
 }
