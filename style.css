@@ -748,6 +748,11 @@ nav ul li:hover>ul {
 .tabc1{
   gap: 137px;
 }
+.footer{
+  max-width: 1920px;
+  /* gray/900 */
+background: rgb(30, 33, 44);
+}
 .serv{
   max-width: 700px;
   height: 560px;
