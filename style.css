@@ -730,6 +730,7 @@ nav ul li:hover>ul {
 
 .background {
   background: url(img/bg.jpg) no-repeat;
+  margin-top: -580px;
 }
 
 .bg {
@@ -744,15 +745,20 @@ nav ul li:hover>ul {
   /* primary */
   background: rgb(119, 114, 241);
   border-radius: 50%;
-
 }
-
-
-
+.serv{
+  max-width: 705px;
+height: 560px;
+}
 @property --p {
   syntax: '<number>';
   inherits: true;
   initial-value: 0;
+}
+
+.tab-content {
+  display: flex;
+  gap: 70px;
 }
 
 .pie {
@@ -1069,11 +1075,49 @@ figure.effect-text-three:hover p {
   width: 166px;
   height: 44px;
 }
-.seo:hover{
+
+.seo:hover {
   color: rgb(119, 114, 241);
   border: 1px solid rgb(119, 114, 241);
 }
-.btn_tab{
+
+.btn_tab {
   display: flex;
   gap: 23px;
+}
+
+.btn-up {
+  position: fixed;
+  background-color: #673ab7;
+
+  right: 20px;
+  bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 50px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #512da8;
+    /* цвет заднего фона при наведении */
+  }
 }
