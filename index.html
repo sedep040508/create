@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="acc.scss">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -22,10 +24,16 @@
     <header>
         <div class="container">
             <div class="header_top flex">
+                <div class="hamb">
+                    <div class="hamb__field" id="hamb">
+                        <span class="bar"></span> <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
                 <div class="header_left flex">
                     <div class="logo"><img src="img/logo.svg" alt=""></div>
                     <nav>
-                        <ul class="menu flex">
+                        <ul class="menu flex" id="menu">
                             <li><a href="#">Services &bigvee;</a>
                                 <ul>
                                     <li><a href="#">html</a></li>
@@ -46,6 +54,7 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="popup" id="popup"></div>
                 <button type="button" class="btn"><span class="span">Talk to a human</span></button>
             </div>
             <div class="header_center">
@@ -82,8 +91,6 @@
                     <div class="driver"></div>
                 </div>
             </div>
-
-        </div>
     </header>
     <section class="agency">
         <div class="container">
@@ -217,7 +224,9 @@
             <div class="footer_top flex">
                 <div class="footer_left">
                     <div class="footer_logo"><img src="img/logo.svg" alt=""></div>
-                    <div class="footer_txt">Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</div>
+                    <div class="footer_txt">Createx SEO Agency is a full-service digital marketing agency. We help
+                        businesses make more money through a wealth of performance data and market research. We create
+                        science-based SEO strategies to empower our clients.</div>
                     <div class="footer_icons">
                         <div class="icon">
                             <a href="#"><img src="img/Facebook.svg" alt=""></a>
@@ -264,7 +273,8 @@
                     <div class="footer_list">
                         <div class="list_tit">SIGN UP TO OUR NEWSLETTER</div>
                         <div class="gmail">Email address</div>
-                        <div class="g_txt">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</div>
+                        <div class="g_txt">*Subscribe to our newsletter to receive communications and early updates from
+                            Createx SEO Agency.</div>
                     </div>
                 </div>
             </div>
@@ -277,9 +287,6 @@
                 </div>
             </div>
             <div class="rights">
-                <a href="#">
-                    <p class="right_tit">© All rights reserved.Made with</p>
-                </a>
             </div>
         </div>
     </footer>

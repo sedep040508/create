@@ -162,7 +162,6 @@ section {
 
 header {
   background: url(img/background.jpg);
-  height: 1080px;
 }
 
 .header_left {
@@ -191,6 +190,7 @@ a {
 .menu {
   gap: 40px;
 }
+
 
 .header_tit {
   /* display/1 */
@@ -234,11 +234,6 @@ a {
   height: 526px;
 }
 
-.header_buttom {
-  height: 40px;
-  flex-direction: row;
-}
-
 .icon_box {
   width: 37.81px;
   height: 37.81px;
@@ -265,7 +260,6 @@ a {
 .agency_left {
   margin-top: 6%;
 }
-
 .driver {
   width: 40px;
   height: 0;
@@ -278,7 +272,7 @@ a {
 
 .header_buttom {
   display: flex;
-  margin-top: -200px;
+  margin-top: -230px;
 }
 
 .agency_tit {
@@ -741,7 +735,6 @@ nav ul li:hover>ul {
 .pulse {
   width: 52px;
   height: 52px;
-  margin-right: 200px;
   /* primary */
   background: rgb(119, 114, 241);
   border-radius: 50%;
@@ -806,6 +799,7 @@ nav ul li:hover>ul {
 .skill {
   display: flex;
   gap: 48px;
+  flex-wrap: wrap;
 }
 
 .znak {
@@ -1226,7 +1220,6 @@ li img {
   letter-spacing: 0%;
   max-width: 286px;
 }
-
 .rights {
   max-width: 1920px;
   height: 50px;
@@ -1243,4 +1236,19 @@ li img {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
+}
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+ .menu > li > a {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+ .menu > li > a:hover {
+  color: rgba(255, 255, 255, 1);
 }
