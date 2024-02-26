@@ -13,12 +13,27 @@
     }
 
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 790px) {
 	.header_buttom{
 		display: none;
 	}
 	.header_tit{
 		font-size: 32px;
+	}
+	.agency{
+		margin-top: -400px;
+	}
+	.white{
+		margin-bottom: 20px;
+	}
+	.footer{
+		margin-top: 600px;
+	}
+	.services_top{
+		justify-content: center;
+	}
+	nav{
+		display: none;
 	}
 }
 @media screen and (max-width: 990px) {
