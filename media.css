@@ -142,3 +142,57 @@
 	  overflow: hidden;
 	}
   }
+  @media screen and (max-width: 1300px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .asks {
+        flex-direction: column;
+    }
+
+    .ask_img {
+        padding: 58px 0;
+    }
+    .free{
+        background-position: 0%;
+        height: 750px;
+    }
+    .free_right{
+        flex-direction: column;
+    }
+    .sisters{
+        flex-direction: column;
+    }
+    #url{
+        padding: 13px 120px 13px 16px;
+    }
+    .free_bottom{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        max-width: 510px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 100%;
+    }
+}
