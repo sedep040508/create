@@ -1,0 +1,364 @@
+.Flexible{
+    height: 1400px;
+    }
+    .flexible_title{
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 70px;
+    }
+      /* Taby */
+  .flexible_taby_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    }
+  .flexible_switch-button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 4rem;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 46px;
+    border-radius: 40px;
+  }
+.flexible_switch-button:before{
+  content: '';
+  position: absolute;
+  left: -50%;
+  top: -100%;
+  height: 300%;
+  width: 100%;
+  background: #7772F1;
+  border-radius: 50%;
+  transition: 0.40s;
+
+}
+  .flexible_switch-item{
+    position: relative;
+    padding: 3rem;
+    color: #555;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+
+  .flexible_switch-item:first-child{
+    color: #fff;
+  }
+
+  .flexible_switch-button.switch-active1 .flexible_switch-item:first-child{
+    color: #555;
+  }
+
+  .flexible_switch-button.switch-active1 .flexible_switch-item:last-child{
+    color: #FFF;
+  }
+
+  .flexible_switch-button.switch-active1:before{
+    left: 50%;
+    background: #7772F1;
+  }
+
+    .flexible_cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    }
+  
+    .flexible_card_title{
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 45px;
+    }
+    .flexible_card_price{
+    font-family: Lato;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7772F1;
+    }
+    .flexible_card_price_time{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7772F1;
+    padding-bottom: 20px;
+    }
+    .flexible_card_block_price{
+    width: 136px;
+    height: 60px;
+    gap: 8px;
+    display: flex;
+    margin-left: 127px;
+    margin-top: 10px;
+    }
+    .flexible_card_line{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    
+    
+    .flexible_card_infs{
+    width: 191px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    margin-left: 99px;
+    gap: 8px;
+    flex-direction: column;
+    }
+    .flexible_card_inf_icon{
+    width: 16px;
+    height: 16px;
+    }
+    .flexible_card_inf_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    }
+    .flexible_card_inf{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    .inf_grey{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9A9CA5;
+    }
+    .btn_roma {
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 4px;
+    margin-left: 122px;
+    margin-top: 40px;
+    height: 44px;
+    color: #7772F1;
+    font-size: 16px;
+    font-weight: 700;
+    width: 146px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border: 1px solid #7772F1
+    }
+        
+    .btn_roma:hover {
+    background: inherit;
+    background: rgb(119, 114, 241);
+    border: 1px solid #fff;
+    color: #fff;
+    }
+    .flexible_card{
+      width: 390px;
+      height: 536px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px -4px #1E212C08;
+      border: 1px solid #7772F166
+      }
+    
+      .flexible_card{
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+      }
+      .flexible_card:hover {
+        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+      }
+    
+      .flexible_card_2{
+      width: 390px;
+      height: 536px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px -4px #1E212C08;
+      border: 1px solid #7772F166
+      }
+    
+      .flexible_card_2{
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+      }
+      .flexible_card_2:hover {
+        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+      }
+    
+      .flexible_card_3{
+      width: 390px;
+      height: 536px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px -4px #1E212C08;
+      border: 1px solid #7772F166
+      }
+    
+      .flexible_card_3{
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+      }
+      .flexible_card_3:hover {
+        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
+      }
+    
+      
+    
+      /* first card */
+      #flexible_change_color {
+        color: #7772F1;
+      }
+      
+      #flexible_icon_change{
+        transition: filter 0.3s;
+      }
+      
+      .flexible_card:hover {
+        background-color: #ddd;
+      }
+      
+      .flexible_card.clicked {
+        background-color: #1E212C;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      
+      .flexible_card.clicked #flexible_change_color {
+        color: #03CEA4;
+      }
+      
+      .flexible_card.clicked #flexible_icon_change {
+        color: #03CEA4;
+        filter: invert(1);
+      }
+    
+    #flexible_change_inf{
+      color: #1E212C;
+    }
+    .flexible_card.clicked #flexible_change_inf {
+      color: #fff;
+    }
+    
+    
+    /* second card */
+    #flexible_change_color_2 {
+      color: #7772F1;
+    }
+    
+    #flexible_icon_change_2{
+      transition: filter 0.3s;
+    }
+    
+    .flexible_card_2:hover {
+      background-color: #ddd;
+    }
+    
+    .flexible_card_2.clicked {
+      background-color: #1E212C;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .flexible_card_2.clicked #flexible_change_color_2 {
+      color: #03CEA4;
+    }
+    
+    .flexible_card_2.clicked #flexible_icon_change_2 {
+      filter: invert(1);
+    }
+    
+    #flexible_change_inf_2{
+    color: #1E212C;
+    }
+    .flexible_card_2.clicked #flexible_change_inf_2 {
+    color: #ddd;
+    }
+    
+    
+    /* three card */
+    #flexible_change_color_3 {
+      color: #7772F1;
+    }
+    
+    #flexible_icon_change_3{
+      transition: filter 0.3s;
+    }
+    
+    .flexible_card_3:hover {
+      background-color: #ddd;
+    }
+    
+    .flexible_card_3.clicked {
+      background-color: #1E212C;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .flexible_card_3.clicked #flexible_change_color_3 {
+      color: #03CEA4;
+    }
+    
+    .flexible_card_3.clicked #flexible_icon_change_3 {
+      filter: invert(1);
+    }
+    
+    #flexible_change_inf_3{
+    color: #1E212C;
+    }
+    .flexible_card_3.clicked #flexible_change_inf_3{
+    color: #ddd;
+    }
+
+    /* flexible_feedback */
+.flexible_feedback{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px ;
+font-family: Lato;
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+/* flexible slide */
+
+.container_slider_css{margin:50px auto;width:800px;height:300px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
