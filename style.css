@@ -260,6 +260,7 @@ a {
 .agency_left {
   margin-top: 6%;
 }
+
 .driver {
   width: 40px;
   height: 0;
@@ -727,6 +728,10 @@ nav ul li:hover>ul {
   background: url(img/bg.jpg) no-repeat;
 }
 
+.youtube img{
+  width: 42.01px;
+height: 29.73px;
+}
 .bg {
   width: 530px;
   height: 801px;
@@ -839,8 +844,8 @@ nav ul li:hover>ul {
 }
 
 video {
-  width: 360px;
-  height: 300px;
+  width: 560px;
+  height: 500px;
   margin-top: -100px;
   border-radius: 39px;
   overflow: hidden;
@@ -1220,6 +1225,36 @@ li img {
   max-width: 286px;
 }
 
+.rights {
+  height: 50px;
+  /* white */
+  background: rgb(255, 255, 255);
+  opacity: 0.05;
+}
+
+.youtube{
+  color:  #FFFFFF;
+  font-weight: 700;
+  width: 175.48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  height: 43.43px;
+  background: rgb(252, 90, 90);
+  transition: 0.3s;
+}
+
+.right_tit {
+  /* extrasmall/regular */
+  color: red;
+  padding-top: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  z-index: 10;
+}
+
 .hamb {
   display: none;
 }
@@ -1227,11 +1262,13 @@ li img {
 .popup {
   display: none;
 }
- .menu > li > a {
+
+.menu>li>a {
   display: flex;
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
 }
- .menu > li > a:hover {
+
+.menu>li>a:hover {
   color: rgba(255, 255, 255, 1);
 }

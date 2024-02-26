@@ -11,6 +11,9 @@
     .free{
         
     }
+	.footer{
+		margin-top: 600px;
+	}
 
 }
 @media screen and (max-width: 790px) {
@@ -25,9 +28,6 @@
 	}
 	.white{
 		margin-bottom: 20px;
-	}
-	.footer{
-		margin-top: 600px;
 	}
 	.services_top{
 		justify-content: center;
