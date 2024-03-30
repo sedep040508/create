@@ -187,10 +187,6 @@
         -webkit-transition: all 1s ease;
                 transition: all 1s ease;
       }
-      .flexible_card:hover {
-        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
-                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
-      }
     
       .flexible_card_2{
       width: 390px;
@@ -204,10 +200,6 @@
         -webkit-transition: all 1s ease;
                 transition: all 1s ease;
       }
-      .flexible_card_2:hover {
-        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
-                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
-      }
     
       .flexible_card_3{
       width: 390px;
@@ -220,10 +212,6 @@
       .flexible_card_3{
         -webkit-transition: all 1s ease;
                 transition: all 1s ease;
-      }
-      .flexible_card_3:hover {
-        -webkit-transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
-                transform: rotate(15deg); /* Градусы поворота можно изменить по необходимости */
       }
     
       
